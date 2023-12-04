@@ -58,9 +58,11 @@ add_action( 'admin_notices','devops_challenge' );
 ### Arquitetura 
 
 - Lightsail
-![Word](https://github.com/mpletti/devops-challenge-junior/assets/134749110/2a7535fc-56a3-4dae-8dff-f04cfb3d0f59)
+![Wordpress_instances](https://github.com/mpletti/devops-challenge-junior/assets/134749110/5ac27bd7-23e8-4544-92a3-6cf6d72df70c)
+
 - wordpress
-![Wordpress_painel](https://github.com/mpletti/devops-challenge-junior/assets/134749110/d347c45c-9485-42a3-b3e4-452125c8866e)
+![Wordpress_painel](https://github.com/mpletti/devops-challenge-junior/assets/134749110/b7cee53c-0132-43d0-822d-b4991be9ba7e)
+
 
 
 
