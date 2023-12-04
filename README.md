@@ -33,25 +33,26 @@ Fazer da etapa 1 até a 5 somente.
 9. Suba o plugin para a sua instalação WordPress Lightsail e ative o mesmo.
 
 
-Para atualizar a funcionalidade do plugin, foi realizada a seguinte alteração no código:
 
-''' Inclusão da tag do php na primeira linha, para indicar ao interpretador do php para ler o código '''
+### Para atualizar a funcionalidade do plugin, foi realizada a seguinte alteração no código:
 
+Inclusão da tag do php na primeira linha, para indicar ao interpretador do php para ler o código
+```
 <?php 
 
-''' inclusão do ; para indicar a interpretação da linha de código ''' 
+```
+inclusão do ; para indicar a interpretação da linha de código 
 
-
+```
 $lyrics = explode( "\n", $lyrics );
 
+```
+inclusão da função nativa do wordpress para escrever textos no header da página inicial
 
-''' inclusão da função nativa do wordpress para escrever textos no header da página inicial '''
-
-
+```
 add_action( 'admin_notices','devops_challenge' );
 
-
-
+```
 
 
 
